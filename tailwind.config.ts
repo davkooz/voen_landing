@@ -19,6 +19,7 @@ export default {
       },
       fontFamily: {
         sans: ['var(--font-onest)', 'system-ui', 'sans-serif'],
+        oxanium: ['var(--font-oxanium)', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",

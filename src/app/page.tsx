@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-start">
-          <h1 className="text-7xl md:text-8xl font-light">vœn</h1>
+          <h1 className="font-oxanium tracking-tighter text-7xl md:text-8xl">vœn</h1>
           <div className="space-y-4">
             <p className="max-w-xs md:max-w-sm break-words">
               ca:4HJU9KsGJpg8AzeVQnevUJhvFj9WpBSrpsbA5qgfpump
@@ -165,7 +165,7 @@ export default function Home() {
           variants={fadeIn}
         >
           <div className='flex flex-col break-words w-full md:w-[30vw]'>
-            <div className='pb-8'><p className='text-8xl'>$vœn</p></div>
+            <div className='pb-8'><p className='text-8xl font-oxanium tracking-tighter'>$vœn</p></div>
             <div className="flex flex-col justify-between py-2 border-b border-current">
               <div className='flex flex-row justify-between py-2'>
                 <span className='text-2xl font-bold'>X</span>

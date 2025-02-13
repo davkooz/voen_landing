@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Onest } from 'next/font/google';
+import { Oxanium } from 'next/font/google';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,6 +18,12 @@ const onest = Onest({
   subsets: ['latin'],
   weight: '500', // Specify the desired weight
   variable: '--font-onest',
+});
+
+const oxanium = Oxanium({
+  subsets: ['latin'],
+  weight: '700', // Choose weight between 200 and 800
+  variable: '--font-oxanium',
 });
 
 export const metadata: Metadata = {

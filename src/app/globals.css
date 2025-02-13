@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Orbitron:wght@400;700&family=Oxanium:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.font-oxanium {
+  font-family: "Oxanium", sans-serif;
+}
 
 :root {
   --background: 255 255 255;
