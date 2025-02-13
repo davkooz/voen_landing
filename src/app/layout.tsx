@@ -20,12 +20,6 @@ const onest = Onest({
   variable: '--font-onest',
 });
 
-const oxanium = Oxanium({
-  subsets: ['latin'],
-  weight: '700', // Choose weight between 200 and 800
-  variable: '--font-oxanium',
-});
-
 export const metadata: Metadata = {
   title: "vœn",
   description: "in pursuit of the lost.",
