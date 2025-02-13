@@ -27,15 +27,17 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-start">
           <h1 className="font-oxanium tracking-tighter text-7xl md:text-8xl">vœn</h1>
           <div className="space-y-4">
-            <p className="max-w-xs md:max-w-sm break-words">
-              ca:4HJU9KsGJpg8AzeVQnevUJhvFj9WpBSrpsbA5qgfpump
+            <p className="max-w-xs md:max-w-sm break-words pb-4">
+              tba
             </p>
-            <button className="group px-20 py-3 border border-current flex items-center gap-2 transition-all duration-300 hover:bg-black hover:text-white">
-              $vœn
-              <span className="opacity-0 translate-x-0 transition-all duration-100 group-hover:opacity-100 group-hover:translate-x-1">
-                ➜
-              </span>
-            </button>
+            <a href="#" target="_blank" className='' rel="noopener noreferrer">
+              <button className="group px-20 py-3 border border-current flex items-center gap-2 transition-all duration-300 hover:bg-black hover:text-white">
+                $vœn
+                <span className="opacity-0 translate-x-0 transition-all duration-100 group-hover:opacity-100 group-hover:translate-x-1">
+                  ➜
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </motion.section>
@@ -110,7 +112,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-end relative text-justify md:text-left w-full md:w-[50vw]">
               <svg
                 className="w-64 h-64 animate-spin-slow"
-                viewBox="15 15 70 70" 
+                viewBox="15 15 70 70"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 {/* 
@@ -167,27 +169,31 @@ export default function Home() {
           <div className='flex flex-col break-words w-full md:w-[30vw]'>
             <div className='pb-8'><p className='text-8xl font-oxanium tracking-tighter'>$vœn</p></div>
             <div className="flex flex-col justify-between py-2 border-b border-current">
-              <div className='flex flex-row justify-between py-2'>
-                <span className='text-2xl font-bold'>X</span>
-                <span>01</span>
-              </div>
-              <a href="https://x.com/voen_sol" className="hover:opacity-70">https://x.com/voen_sol</a>
+              <a href="https://x.com/voen_sol" className="hover:opacity-70" target="_blank">
+                <div className='flex flex-row justify-between py-2'>
+                  <span className='text-2xl font-bold'>X</span>
+                  <span>01</span>
+                </div>
+                <p>https://x.com/voen_sol</p>
+              </a>
             </div>
             <div className="flex flex-col justify-between py-2 border-b border-current">
-              <div className='flex flex-row justify-between py-2'>
-                <span className='text-2xl font-bold'>TG</span>
-                <span>02</span>
-              </div>
-              <a href="https://t.me/voen_sol" className="hover:opacity-70">https://t.me/voen_sol</a>
+              <a href="https://t.me/voen_sol" className="hover:opacity-70" target="_blank">
+                <div className='flex flex-row justify-between py-2'>
+                  <span className='text-2xl font-bold'>TG</span>
+                  <span>02</span>
+                </div>
+                <p>https://t.me/voen_sol</p>
+              </a>
             </div>
             <div className="flex flex-col justify-between py-2 border-b border-current">
-              <div className='flex flex-row justify-between py-2'>
-                <span className='text-2xl font-bold'>pump.fun</span>
-                <span>03</span>
-              </div>
-              <span className="text-sm">
-                4HJU9KsGJpg8AzeVQnevUJhvFj9WpBSrpsbA5qgfpump
-              </span>
+              <a href="#" className="hover:opacity-70" target="_blank">
+                <div className='flex flex-row justify-between py-2'>
+                  <span className='text-2xl font-bold'>pump.fun</span>
+                  <span>03</span>
+                </div>
+                <p>tba</p>
+              </a>
             </div>
           </div>
           <div className="relative w-full h-[50vh] md:h-auto md:w-[20vw]">
@@ -195,6 +201,6 @@ export default function Home() {
           </div>
         </motion.section>
       </main>
-    </div>
+    </div >
   );
 }
