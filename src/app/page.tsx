@@ -52,7 +52,7 @@ export default function Home() {
           variants={fadeIn}
         >
           <Image
-            src="/voen5.jpg"
+            src="/voen5.webp"
             alt="Landscape"
             fill
             className="object-contain md:object-cover"
@@ -71,19 +71,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex flex-col space-y-4">
               <div className="relative w-full md:w-[20vw] h-[30vh]">
-                <Image src="/voen1.jpg" alt="Scene 1" fill className="object-cover" />
+                <Image src="/voen1.webp" alt="Scene 1" fill className="object-cover" />
               </div>
               <div className="relative w-full md:w-[20vw] h-[30vh]">
-                <Image src="/voen2.jpg" alt="Scene 2" fill className="object-cover" />
+                <Image src="/voen2.webp" alt="Scene 2" fill className="object-cover" />
               </div>
             </div>
 
             <div className="w-full md:w-[20vw] relative h-[30vh] md:h-[62vh]">
-              <Image src="/voen3.jpg" alt="Scene 3" fill className="object-cover" />
+              <Image src="/voen3.webp" alt="Scene 3" fill className="object-cover" />
             </div>
 
             <div className="w-full md:w-[51vw] relative h-[30vh] md:h-[62vh]">
-              <Image src="/voen6.jpg" alt="Scene 4" fill className="object-contain md:object-cover" />
+              <Image src="/voen6.webp" alt="Scene 4" fill className="object-contain md:object-cover" />
             </div>
           </div>
         </motion.section>
@@ -100,10 +100,10 @@ export default function Home() {
           <div className='flex flex-col md:flex-row justify-between gap-x-40'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-shrink-0 w-full md:w-[50vw]">
               <div className="relative w-full h-[50vh]">
-                <Image src="/voen4.jpg" alt="Voen 1" fill className="object-cover" />
+                <Image src="/voen4.webp" alt="Voen 1" fill className="object-cover" />
               </div>
               <div className="relative w-full h-[50vh]">
-                <Image src="/voen1.jpg" alt="Voen 2" fill className="object-cover" />
+                <Image src="/voen1.webp" alt="Voen 2" fill className="object-cover" />
               </div>
             </div>
 
